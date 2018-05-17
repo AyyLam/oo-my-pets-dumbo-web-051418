@@ -55,6 +55,7 @@ class Owner
   
   def sell_pets
     @@all.map {|pet| pet.mood = "nervous"}
+    @@all = [] 
   end 
   
   
