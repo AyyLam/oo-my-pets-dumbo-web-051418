@@ -20,11 +20,9 @@ class Owner
     @@all.clear 
   end 
   
-  def species
-    @species
-  end 
   
   def say_species
+    @species
   end
 
   def buy_fish(name) 
